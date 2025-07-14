@@ -13,7 +13,7 @@ variable "proxmox_api_token_secret" {
   description = "TokenPass de un usuario de proxmox"
   sensitive   = true
 }
-variable "node_name" {
+variable "ct_target_node" {
   type        = string
   description = "Nombre del Nodo"
   sensitive   = true
@@ -23,7 +23,7 @@ variable "ct_root_pass" {
   description = "root password"
   sensitive   = true
 }
-variable "ct_ansible_ssh_public_key" {
+variable "ct_ssh_public_key" {
   type        = string
   description = "Ssh public key used by Ansible"
   sensitive   = true
