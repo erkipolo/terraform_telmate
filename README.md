@@ -19,5 +19,4 @@
 - An internet connection
 
 ## issues
-- Even though the public key is passed, root access via SSH is not enabled. You have to physically enter the server and modify the service or create a user.
-  - Solution: Deploy a template with "Cloud-Init" installed and use the "clone" function of Telmate's "proxmox_lxc" resource.
+- Don't found
