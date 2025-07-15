@@ -1,6 +1,6 @@
 variable "ct_kube_node_count" {
   type    = number
-  default = 1
+  default = 0
 }
 variable "ct_kube_node_ip_init" {
   type    = number

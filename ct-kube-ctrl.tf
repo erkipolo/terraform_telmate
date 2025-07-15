@@ -1,6 +1,6 @@
 variable "ct_kube_ctrl_count" {
   type    = number
-  default = 1
+  default = 0
 }
 variable "ct_kube_ctrl_ip_init" {
   type    = number

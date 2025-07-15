@@ -1,6 +1,6 @@
 variable "ct_debian_count" {
   type    = number
-  default = 1
+  default = 3
 }
 variable "ct_debian_ip_init" {
   type    = number
